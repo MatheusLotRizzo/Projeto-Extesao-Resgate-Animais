@@ -1,0 +1,20 @@
+html, body, #home {
+	height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav.navbar-menu{
+    background: #B0E0E6;
+}
+
+nav.navbar-menu ul li a{
+    color: black;
+}
+
+nav.navbar-menu ul li a:hover{
+    color: #00008B;
+}
