@@ -1,6 +1,6 @@
 html, body, #home {
-	height: 100%;
-    overflow-x: hidden;
+	/*height: 100%;*/
+    /*overflow-x: hidden;*/
 }
 
 body{
@@ -17,4 +17,9 @@ nav.navbar-menu ul li a{
 
 nav.navbar-menu ul li a:hover{
     color: #00008B;
+}
+
+.caixa{
+    padding-top: 110px;
+    padding-bottom: 20px;
 }
