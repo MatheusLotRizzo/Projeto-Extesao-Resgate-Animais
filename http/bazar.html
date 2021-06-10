@@ -26,31 +26,23 @@
 </head>
 
 <body>
-
     <!-- Inicio navbar -->
     <header>
         <nav class="navbar navbar-expand-md navbar-ligth navbar-menu fixed-top">
-
             <div class="navbar-menu2 fixed-top titulo altura">
-
             </div>
-
             <div class="container" style="margin-top:20px;">
                 <!-- Logo do Menu -->
-
                 <a href="index.html" class="navbar-brand">
                     <img src="../imagens/patinha.svg" width="60">
                 </a>
-
                 <div>
                     <h2 class="titulo">AMIGOS DE RESGATE</h2>
                 </div>
-
                 <!--Botão hamburger para quando navbar entrar no collapse-->
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
                     <i class="fas fa-bars text-black"></i>
                 </button>
-
                 <!-- Links Navbar -->
                 <div class="collapse navbar-collapse" id="nav-principal">
                     <ul class="navbar-nav ml-auto">
@@ -61,96 +53,63 @@
                             <a href="contato.html" class="nav-link">Contato</a>
                         </li>
                         <li class="nav-item">
-                            <a href="quemsomos.html" class="nav-link">Quem Somos</a>
+                            <a href="quemsomos" class="nav-link">Quem Somos</a>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <br>
-    <!-- Fim navbar -->
 
     <!-- Conteudo página inicial -->
     <section id="home" class="d-flex caixa" style="margin-top:20px;">
-        <div class="container align-self-center">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card text-white">
-                        <img class="card-img" src="../imagens/card01.svg">
-                        <div class="card-img-overlay marginCard">
-                            <a class="text-white" href="bazar.html">
-                                <h4>Bazar em prol</h4>
-                                <h4>dos animais</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card text-white">
-                        <img class="card-img" src="../imagens/card03.svg">
-                        <div class="card-img-overlay alinhaAlt">
-                            <a class="text-white" href="vendas.html">
-                                <h4 class="alinha">Vendas de</h4>
-                                <h4 class="alinha">sonho e rondelli</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card text-white">
-                        <img class="card-img" src="../imagens/card01.svg">
-                        <div class="card-img-overlay marginCard">
-                            <a class="text-white" href="feiraLivro.html">
-                                <h4>Feira do Livro</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        <div class="row marginCarrosel">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 text-justify">
+                <h1 class="text-center">Bazar em prol dos animais</h1>
+                <p>&ensp;Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into
+                    electronic typesetting, remaining essentially unchanged. It was popularised in the
+                    1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                    recently with desktop publishing software like Aldus PageMaker including versions of
+                    Lorem Ipsum.
+                </p>
             </div>
-
-            <div class="row mt-3">
-                <div class="col-md-4">
-                    <div class="card text-white">
-                        <img class="card-img" src="../imagens/card02.svg">
-                        <div class="card-img-overlay marginCard">
-                            <a class="text-white" href="campAdocao.html">
-                                <h4>Campanha</h4>
-                                <h4>de adoção</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card text-white">
-                        <img class="card-img" src="../imagens/card03.svg">
-                        <div class="card-img-overlay alinhaAlt">
-                            <a class="text-white" href="arrecadaRacao.html">
-                                <h4 class="alinha">Arrecadação</h4>
-                                <h4 class="alinha">de ração</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card text-white">
-                        <img class="card-img" src="../imagens/card02.svg">
-                        <div class="card-img-overlay marginCard">
-                            <a class="text-white" href="publirecente.html">
-                                <h4>Publicações</h4>
-                                <h4>mais recentes</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-sm-3"></div>
         </div>
     </section>
-    <!-- Fim conteudo página inicial -->
-    <br>
+
+    <section id="home" class="d-flex">
+        <div class="row marginCarrosel">
+            <div class="col-sm-12"></div>
+            <div id="carousel-controles2" class="carousel slide" data-ride="carousel">
+                <!--Carousel -->
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#carousel-controles2" data-slide-to="0"></li>
+                    <li class="" data-target="#carousel-controles2" data-slide-to="1"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <!--Inner -->
+                    <div class="carousel-item active">
+                        <img src="../imagens/bazar/Bazar.svg" class="img-fluid imgcarrosel">
+                    </div>
+                </div>
+                <!--/Inner -->
+
+                <a href="#carousel-controles2" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#carousel-controles2" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon text-dark"></span>
+                </a>
+            </div>
+            <!--/Carousel -->
+        </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <div class="row">
@@ -164,13 +123,13 @@
                             <a href="">Matheus Rizzo</a>
                         </li>
                         <li>
-                            <a href="">Ana Oliveira</a>
+                            <a href="">Ana</a>
                         </li>
                         <li>
-                            <a href="">Filipi Vendramini</a>
+                            <a href="">Filipi</a>
                         </li>
                         <li>
-                            <a href="">Yasmin Barbosa</a>
+                            <a href="">Yasmin</a>
                         </li>
                     </ul>
                 </div>
