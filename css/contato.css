@@ -10,7 +10,6 @@
 
 .dados h1{
   font-size: 72px;
-  font-family: Alice;
   font-style: normal;
   font-weight: normal;
   text-align: center;
@@ -27,7 +26,6 @@
 }
 
 .dados label {
-  font-family: Nunito;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -66,7 +64,6 @@
 }
 
 .info h2 {
-  font-family: Nunito;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
